@@ -1,6 +1,17 @@
-.hello {
-    border: 1px solid red;
-    border-radius: 5px;
-    padding: 5px;
-    width: 100%;
+#index_body{
+  background: rgb(153, 217, 234);
+  color: rgb(16,65,78);
+  font-size: 45;
+  font-weight: bold;
+}
+body{
+  font-size: 28px;
+  text-align: center;
+}
+body > header{
+  height: 55px;
+  background: rgb(30, 123, 147);
+  font-size: 45px;
+  text-align: center;
+  width: 100%
 }
