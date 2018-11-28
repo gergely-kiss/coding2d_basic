@@ -5,16 +5,17 @@ body{
   color: rgb(10,225,220, 0.7);
   font-size: 28px;
   font-family: 'Ubuntu', sans-serif;
-
 }
-body > header{
+
+header{
   height: 55px;
   background: rgb(30, 30, 30);
   font-size: 45px;
   font-weight: bold;
-  text-align: center;
   margin-bottom: 2%;
-  width: 100%
+  width: 100%;
+  text-align: right;
+
 }
 article{
   background: rgb(30, 30, 30);
@@ -24,8 +25,22 @@ article{
   margin-right: 10px;
   margin-left: 10px;
 }
+.top_menu{
+  display: inline-block;
+  padding-right: 10%;
+}
 .date{
   font-style: italic;
   text-align: right;
   padding-right: 0.5%;
+}
+#coding2d{
+  padding-left: 1%;
+  float: left;
+}
+#al{
+  width: 25px;
+  height: 25px;
+  padding-right: 10px;
+  opacity: 0.1;
 }
